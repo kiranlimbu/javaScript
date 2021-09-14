@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Import css file -->
+    <link rel="stylesheet" href="style.css">
+
+    <title>Cash Register</title>
+</head>
+
+<body>
+    <div class="display-val-total">
+        <h1 id="display-total-info">SUBTOTAL</h1>
+        <span id="display-total">0</span>
+    </div>
+
+    <div class="main_container">
+
+        <div class="reg-history">
+            <div class="regInfoContainer">
+                <span></span>
+            </div>
+            
+        </div>
+
+        <div class="reg-parent">
+            <div class="row">
+                <div class="display-val-item column">
+                    <h1 id="display-info">ITEM</h1>
+                    <span id="display-item">0</span>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="reg-btn column" id="reg-clear"><h1>Clear</h1></div>
+                <div class="reg-btn column" id="reg-backspace"><h1>&#8676;</h1></div>
+            </div>
+            
+            <div class="row">
+                <div class="reg-btn reg-btn-num column" id="reg-seven"><h1>7</h1></div>
+                <div class="reg-btn reg-btn-num column" id="reg-eight"><h1>8</h1></div>
+                <div class="reg-btn reg-btn-num column" id="reg-nine"><h1>9</h1></div>
+                <div class="reg-btn reg-btn-operator column" id="reg-times"><h1>x</h1></div>
+            </div>
+
+            <div class="row">
+                <div class="reg-btn reg-btn-num column" id="reg-four"><h1>4</h1></div>
+                <div class="reg-btn reg-btn-num column" id="reg-five"><h1>5</h1></div>
+                <div class="reg-btn reg-btn-num column" id="reg-six"><h1>6</h1></div>
+                <div class="reg-btn reg-btn-operator column" id="reg-minus"><h1>-</h1></div>
+            </div>
+
+            <div class="row">
+                <div class="reg-btn reg-btn-num column" id="reg-one"><h1>1</h1></div>
+                <div class="reg-btn reg-btn-num column" id="reg-two"><h1>2</h1></div>
+                <div class="reg-btn reg-btn-num column" id="reg-three"><h1>3</h1></div>
+                <div class="reg-btn reg-btn-operator column" id="reg-plus"><h1>+</h1></div>
+            </div>
+
+            <div class="row">
+                <div class="reg-btn reg-btn-num column" id="reg-zero"><h1>0</h1></div>
+                <div class="reg-btn column" id="reg-decimal"><h1>.</h1></div>
+                <div class="reg-btn reg-btn-operator column" id="reg-equals"><h1>Total</h1></div>
+            </div>
+
+            <div class="row">
+                <div class="reg-btn reg-btn-operator column" id="cash"><h1>CASH</h1></div>
+                <div class="reg-btn reg-btn-operator column" id="card"><h1>CARD</h1></div>
+            </div>
+        </div>
+    </div>
+    <!-- JavaScript -->
+    <script type="text/javascript" src="./main.js"></script>
+</body>
+</html>
